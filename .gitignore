@@ -1,0 +1,56 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Checkpoints and Weights
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+*.h5
+*.onnx
+models/
+checkpoints/
+
+# Vector DB
+chroma_db/
+.chroma/
+
+# Large Data Files
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+data/raw/
+data/processed/
+data/embeddings/
+!data/*.py
+app_space.py
+
+# Logs and output
+wandb/
+*.log
+runs/
+tensorboard/
+eval/*.json
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
